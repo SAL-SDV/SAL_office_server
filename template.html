@@ -1,0 +1,38 @@
+<!--出力HTML-->
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>外出通知</title>
+		<link rel="stylesheet" href="kaigotuti.css">	
+	</head>
+	
+	<body>
+	
+		<div  class="title">
+			<h1>外出通知</h1>
+		</div>
+		
+		<div class="content">
+
+			<div class="s_button_iti">
+				<a href="kaigotuti_sakuzyo.html">
+				<button class="s_button" type="button" name="kakunin" value="確 認" >確 認</button>
+				</a>
+			</div>
+	
+		
+			<p>_%string1%_様</p><!--名前読み込み-->
+					
+			<p>_%string2%_に外出されました。</p><!--日付時間読み込み-->
+				
+			<p><img src="_%string3%_" width="700" height="550" border="5"></p><!--画像読み込み-->
+				
+			<a href="index2.php">
+			<p><button class="b_button" type="button" name="tuuhou" value="通 報">通 報</button></p>
+			</a>
+		
+		</div>
+
+	</body>
+</html>
